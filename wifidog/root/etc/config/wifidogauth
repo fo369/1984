@@ -1,5 +1,0 @@
-config wifidog auth
-	option username admin
-	option password admin
-	option sessionexpire 900
-	option sessionpath /tmp/session-wifidog/
