@@ -6,10 +6,9 @@
 
 include $(TOPDIR)/rules.mk
 
-LUCI_TITLE:=LuCI page for wifidog support.
+LUCI_TITLE:=LuCI Support for wifidog
 LUCI_DEPENDS:=+wifidog
 
 include ../../luci.mk
 
 # call BuildPackage - OpenWrt buildroot signature
-
